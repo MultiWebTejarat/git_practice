@@ -1,0 +1,167 @@
+#projects img {
+	height: 250px;
+}
+
+footer img {
+	height: 15px;
+}
+footer a {
+	color: white;
+	opacity: 0.9;
+}
+
+footer {
+	background-color: #105170;
+	padding-top: 40PX;
+	color: grey;
+	height: 100px;
+
+}
+
+body {
+	text-align: center;
+	background: #FDC167;
+	font-family: tahoma;
+}
+
+#subscribe {
+	margin-top: 70px;
+	margin-bottom: 40px;
+	background-color: #3572A0; 
+	padding: 80px;
+	color: orange;
+}
+
+.email-b {
+	background-color: #4CAF50; /* Green */
+	  border: none;
+	  color: white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+}
+
+#contact {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg");
+	background-position: center;
+	padding: 60px;
+	color: white;
+	text-shadow: black
+
+}
+
+#contact textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.About {
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg");
+	height: 550px;
+	background-position: center;
+	color: white;
+}
+
+.About h1 {
+	padding-top: 225px;
+
+}
+
+.About p {
+	background-color: black;
+	padding: 20px;
+}
+#goals h5 {
+	opacity: 0.6;
+}
+
+/*MAIN MENU*/
+}
+.thx{
+  position: fixed;
+  left:50%;
+  transform:translateX(-50%);
+  bottom: 15px;
+}
+nav{
+  width: 100%;
+  position: relative;
+  top:50px;
+  text-align:center;
+  margin-bottom: 80px;
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  font-weight:500;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#16151b;
+  margin:0 15px;
+  font-size:16px;
+  letter-spacing:1px;
+  position:relative;
+  display:inline-block;
+}
+nav a:before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background:#16151b;
+  top:47%;
+  animation:out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+}
+nav a:hover:before{
+  animation:in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
+
+}
+@keyframes in{
+  0%{
+    width: 0;
+    left:0;
+    right:auto;
+  }
+  100%{
+    left:0;
+    right:auto;
+    width: 100%;
+  }
+}
+@keyframes out{
+  0%{
+    width:100%;
+    left: auto;
+    right: 0;
+  }
+  100%{
+    width: 0;
+    left: auto;
+    right: 0;
+  }
+}
+@keyframes show{
+  0%{
+    opacity:0;
+    transform:translateY(-10px);
+  }
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+  /*END OF MAIN MENU*/
+
+  .schedule {
+  	padding-left: : 40px;
+  }
+
+
+
+
